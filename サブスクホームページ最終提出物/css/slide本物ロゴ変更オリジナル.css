@@ -43,7 +43,10 @@
 	animation-name: slide1;		/*keyframes.cssで使う@keyframesの指定*/
 }
 /*２枚目*/
-
+.slide2 {
+	background: url(../images/haikei.png) no-repeat center center / auto 600px;	/*２枚目画像の読み込み。600pxは高さ指定。*/
+	animation-name: slide2;		/*keyframes.cssで使う@keyframesの指定*/
+}
 /*３枚目*/
 .slide3 {
 	background: url(../images/haikei.png) no-repeat center center / cover;	/*３枚目画像の読み込み。coverは画像がきれないように全体を表示させる指定。*/

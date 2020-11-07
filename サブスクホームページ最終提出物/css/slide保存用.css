@@ -17,12 +17,6 @@
 	width: 100%;
 	height: 300px;	/*スライドショーの高さ*/
 }
-<aside id="mainimg">
-<img src="images/0.jpg" alt="" class="slide0">
-<img src="images/1.jpg" alt="" class="slide1">
-<img src="images/2.jpg" alt="" class="slide2">
-<img src="images/3.jpg" alt="" class="slide3">
-</aside>
 /*画像の共通設定*/
 .slide0,.slide1,.slide2,.slide3 {width: 100%;height: 100%;}
 .slide1,.slide2,.slide3 {
@@ -39,14 +33,17 @@
 }
 /*１枚目*/
 .slide1 {
-	background: url(../images/logo.png) no-repeat center center / auto 240px;	/*１枚目画像の読み込み。240pxは高さ指定。*/
+	background: url(../images/3.png) no-repeat center center / auto 240px;	/*１枚目画像の読み込み。240pxは高さ指定。*/
 	animation-name: slide1;		/*keyframes.cssで使う@keyframesの指定*/
 }
 /*２枚目*/
-
+.slide2 {
+	background: url(../images/2.png) no-repeat center center / auto 600px;	/*２枚目画像の読み込み。600pxは高さ指定。*/
+	animation-name: slide2;		/*keyframes.cssで使う@keyframesの指定*/
+}
 /*３枚目*/
 .slide3 {
-	background: url(../images/haikei.png) no-repeat center center / cover;	/*３枚目画像の読み込み。coverは画像がきれないように全体を表示させる指定。*/
+	background: url(../images/1.png) no-repeat center center / auto 600px;	/*３枚目画像の読み込み。coverは画像がきれないように全体を表示させる指定。*/
 	animation-name: slide3;		/*keyframes.cssで使う@keyframesの指定*/
 }
 
